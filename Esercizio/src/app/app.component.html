@@ -1,0 +1,16 @@
+<form>
+ <h2> Prenotazioni</h2>
+
+Nome<input type="text" #nome><br><br>
+Cognome<input type="text" #cognome><br><br>
+Indirizzo<input type="text" #indirizzo><br><br>
+Telefono<input type="text" #telefono><br><br>
+Mail<input type="text" #mail><br><br>
+DataPrenotazione<input type="text" #dataPrenotazione><br><br>
+OraPrenotazione<input type="text" #oraPrenotazione><br><br>
+<button(click="AddPrenotazione(nome,cognome,indirizzo,telefono,dataPrenotazione,oraPrenotazione)">Aggiungi</button>
+</form>
+<br><br>
+<h1>Lista Prenotazioni<h2>
+<app-lista1 *ngFor></app-lista1>
+
